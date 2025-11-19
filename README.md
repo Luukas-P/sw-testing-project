@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Luukas-P/sw-testing-project/badge.svg?branch=main)](https://coveralls.io/github/Luukas-P/sw-testing-project?branch=main)
+
 # Student template
 
 ## Purpose of this repository
