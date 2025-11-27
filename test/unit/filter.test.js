@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import filter from '../../src/filter.js';
 
-describe('Filter.js Tests', () => {
+describe('Filter.js Tests (Unit)', () => {
 
     it('should filter based on type (numbers)', () => {
         const input = [1, '2', 3, '4'];
