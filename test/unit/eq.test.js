@@ -18,11 +18,6 @@ describe('eq.js Tests (Unit)', () => {
         expect(result).to.equal(true);
     });
 
-    it('should return true when object1 & object2 is the same char', () => {
-        const result = eq('a','a');
-        expect(result).to.equal(true);
-    });
-
     it('should return true when object1 & object2 is Nan', () => {
         const result = eq(NaN,NaN);
         expect(result).to.equal(true);
@@ -45,6 +40,11 @@ describe('eq.js Tests (Unit)', () => {
 
     it('should return false when object1 is string & object2 is number', () => {
         const result = eq("Strawberry",2);
+        expect(result).to.equal(false);
+    });
+
+    it('should return false when object1 is string resembling number & object2 is the number', () => {
+        const result = eq("2",2);
         expect(result).to.equal(false);
     });
 
