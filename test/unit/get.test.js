@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import get from '../../src/get.js';
 
-describe('get.js Tests', () => {
+describe('get.js Tests (Unit)', () => {
     
     it('Should return the objects value at the end of the bath', () => {
         const object = { 'a': [{ 'b': { 'c': 3 } }] }

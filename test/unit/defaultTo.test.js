@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import defaultTo from '../../src/defaultTo.js';
 
-describe('defaultTo.js Tests', () => {
+describe('defaultTo.js Tests (Unit)', () => {
     
     it('Function should return the number (obj1) when its defined', () => {
         const result = defaultTo(1,5);

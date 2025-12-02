@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import eq from '../../src/eq.js';
 
-describe('eq.js Tests', () => {
+describe('eq.js Tests (Unit)', () => {
     
     it('should return true when object1 & object2 is the same string', () => {
         const result = eq("Strawberry","Strawberry");

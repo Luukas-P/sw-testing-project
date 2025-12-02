@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import isEmpty from '../../src/isEmpty.js';
 
-describe('isEmpty.js Tests', () => {
+describe('isEmpty.js Tests (Unit)', () => {
     
     it('should return true when object is null', () => {
         const result = isEmpty(null);
