@@ -18,6 +18,11 @@ describe('defaultTo.js Tests (Unit)', () => {
         expect(result).to.equal(-1);
     });
 
+    it('Function should return string (obj1) even if the default value is number', () => {
+        const result = defaultTo("string",5);
+        expect(result).to.equal("string");
+    });
+
     it('Function should return the default value (obj2) when obj1 is undefined', () => {
         const result = defaultTo(undefined,5);
         expect(result).to.equal(5);
