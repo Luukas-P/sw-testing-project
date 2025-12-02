@@ -19,7 +19,7 @@ describe('eq.js Tests (Unit)', () => {
     });
 
     it('should return true when object1 & object2 is the same char', () => {
-        const result = eq(a,a);
+        const result = eq('a','a');
         expect(result).to.equal(true);
     });
 

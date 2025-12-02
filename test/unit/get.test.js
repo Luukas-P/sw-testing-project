@@ -3,13 +3,13 @@ import get from '../../src/get.js';
 
 describe('get.js Tests (Unit)', () => {
     
-    it('Should return the objects value at the end of the bath', () => {
+    it('Should return the objects value at the end of the path', () => {
         const object = { 'a': [{ 'b': { 'c': 3 } }] }
         const result = get(object,'a[0].b.c');
         expect(result).to.equal(3);
     });
 
-    it('Should return the objects value at the end of the bath', () => {
+    it('Should return the objects value at the end of the path', () => {
         const object = { 'a': [{ 'b': { 'c': 3 } }] }
         const result = get(object,['a', '0', 'b', 'c']);
         expect(result).to.equal(3);
